@@ -1,0 +1,32 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "cypress/globals": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:chai-friendly/recommended"
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "rules": {
+        "editor.formatOnSave": true,
+        "semi": ["error", "never"],
+        "quotes": [2, "single", "avoid-escape"],
+        "cypress/no-assigning-return-values": "error",
+        "cypress/no-unnecessary-waiting": "error",
+        "cypress/assertion-before-screenshot": "warn",
+        "cypress/no-force": "warn",
+        "cypress/no-async-tests": "error",
+        "cypress/no-pause": "error",
+        "no-unused-expressions": 0,
+        "chai-friendly/no-unused-expressions": 2
+    },
+    "plugins": [
+        "cypress",
+        "chai-friendly"
+    ]
+}
