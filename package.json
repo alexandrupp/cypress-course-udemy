@@ -1,0 +1,22 @@
+{
+  "name": "cypress-course-udemy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandrupp/cypress-course-udemy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexandrupp/cypress-course-udemy/issues"
+  },
+  "homepage": "https://github.com/alexandrupp/cypress-course-udemy#readme",
+  "devDependencies": {
+    "cypress": "^9.7.0"
+  }
+}
