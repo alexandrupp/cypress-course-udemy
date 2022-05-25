@@ -4,7 +4,7 @@ describe('Test Contact US form via WebdriverUni', () => {
     beforeEach(() => {
         cy.fixture('contactUs').as('contactUsData')
 
-        cy.visit('/Contact-Us/contactus.html')
+        cy.visit('https://webdriveruniversity.com/Contact-Us/contactus.html')
     })
 
     it('Should be able to submit a successful submission via contact us form', function () {
