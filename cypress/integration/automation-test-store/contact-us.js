@@ -15,7 +15,7 @@ describe('Test Contact Us form via Automation Test Store', () => {
       .type(this.contactUsData.email)
     cy.get('#ContactUsFrm_enquiry')
       .type(this.contactUsData.comment)
-    cy.get('.col-md-6 > .btn')
+    cy.get("button[title='Submit']")
       .click()
   });
 });
