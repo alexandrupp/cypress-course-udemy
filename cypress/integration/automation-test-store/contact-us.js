@@ -5,7 +5,7 @@ describe('Test Contact Us form via Automation Test Store', () => {
       cy.fixture('contactUs').as('contactUsData')
 
       cy.visit('https://www.automationteststore.com/')
-      cy.get('.info_links_footer > :nth-child(5) > a').click()
+      cy.xpath("//a[contains(@href, 'contact')]").click()
   })
 
   it('Should be able to submit a successful submission via contact us form', function () {

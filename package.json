@@ -18,6 +18,7 @@
   "homepage": "https://github.com/alexandrupp/cypress-course-udemy#readme",
   "devDependencies": {
     "cypress": "^9.7.0",
+    "cypress-xpath": "^1.6.2",
     "eslint": "^8.16.0",
     "eslint-plugin-chai-friendly": "^0.7.2",
     "eslint-plugin-cypress": "^2.12.1"
