@@ -1,0 +1,8 @@
+{
+  "contact_us_page": {
+    "first_name_field":"#ContactUsFrm_first_name",
+    "email_field": "#ContactUsFrm_email",
+    "enquiry_field": "#ContactUsFrm_enquiry",
+    "submit_cta": "button[title='Submit']"
+  }
+}
