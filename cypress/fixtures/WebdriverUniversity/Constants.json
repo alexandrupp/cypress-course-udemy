@@ -4,5 +4,11 @@
     "LAST_NAME": "Pop",
     "EMAIL": "alexandrup@ensemble.com",
     "COMMENTS": "This is such a nice website!"
+  },
+  "CONTACT_US_SUCCESS_PAGE": {
+    "SUCCESS_MESSAGE": "Thank You for your Message!"
+  },
+  "CONTACT_US_ERROR_PAGE": {
+    "ERROR_MESSAGE": "Error: all fields are required"
   }
 }

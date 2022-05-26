@@ -5,5 +5,11 @@
     "EMAIL_FIELD": "[name=\"email\"]",
     "COMMENTS_FIELD": "textarea.feedback-input",
     "SUBMIT_CTA": "[type=\"submit\"]"
+  },
+  "CONTACT_US_SUCCESS_PAGE": {
+    "SUCCESS_MESSAGE": "//*[contains(text(), '%s')]"
+  },
+  "CONTACT_US_ERROR_PAGE": {
+    "ERROR_MESSAGE_CONTAINER": "body"
   }
 }
