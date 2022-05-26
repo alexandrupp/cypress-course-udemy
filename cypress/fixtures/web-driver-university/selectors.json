@@ -1,9 +1,0 @@
-{
-  "contact_us_page": {
-    "first_name_field":"[name=\"first_name\"]",
-    "last_name_field": "[name=\"last_name\"]",
-    "email_field": "[name=\"email\"]",
-    "comments_field": "textarea.feedback-input",
-    "submit_cta": "[type=\"submit\"]"
-  }
-}

@@ -1,0 +1,10 @@
+{
+  "CONTACT_US_PAGE": {
+    "FIRST_NAME": "Alexandru-Cristian",
+    "EMAIL": "alexandrup@ensemble.com",
+    "ENQUIRY": "This is such a nice website!"
+  },
+  "CONTACT_US_SUCCESS_PAGE": {
+    "SUCCESS_MESSAGE": "Your enquiry has been successfully sent to the store owner!"
+  }
+}

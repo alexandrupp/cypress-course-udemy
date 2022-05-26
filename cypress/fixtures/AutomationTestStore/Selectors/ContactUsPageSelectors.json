@@ -1,0 +1,11 @@
+{
+  "CONTACT_US_PAGE": {
+    "FIRST_NAME_FIELD": "#ContactUsFrm_first_name",
+    "EMAIL_FIELD": "#ContactUsFrm_email",
+    "ENQUIRY_FIELD": "#ContactUsFrm_enquiry",
+    "SUBMIT_CTA": "button[title='Submit']"
+  },
+  "CONTACT_US_SUCCESS_PAGE": {
+    "SUCCESS_MESSAGE": "//*[contains(text(), '%s')]"
+  }
+}
