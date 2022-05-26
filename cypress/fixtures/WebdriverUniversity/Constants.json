@@ -1,5 +1,10 @@
 {
   "CONTACT_US_PAGE": {
+    "WINDOW": {
+      "CHARSET": "UTF-8",
+      "TITLE": "WebDriver | Contact Us",
+      "URL": "https://webdriveruniversity.com/Contact-Us/contactus.html"
+    },
     "FIRST_NAME": "Alexandru-Cristian",
     "LAST_NAME": "Pop",
     "EMAIL": "alexandrup@ensemble.com",

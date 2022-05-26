@@ -9,6 +9,12 @@ describe('Test Contact US form via WebdriverUni', () => {
     cy.visit('https://webdriveruniversity.com/Contact-Us/contactus.html')
   })
 
+  it('Should check webpage charset, title and url', function () {
+    cy.document().should('have.property', 'charset').and('eq', this.CONSTANTS.CONTACT_US_PAGE.WINDOW.CHARSET)
+    cy.title().should('include', this.CONSTANTS.CONTACT_US_PAGE.WINDOW.TITLE)
+    cy.url().should('include', this.CONSTANTS.CONTACT_US_PAGE.WINDOW.URL)
+  })
+
   it('Should be able to submit a successful submission via contact us form', function () {
     cy.get(this.SELECTORS.CONTACT_US_PAGE.FIRST_NAME_FIELD).type(this.CONSTANTS.CONTACT_US_PAGE.FIRST_NAME),
     cy.get(this.SELECTORS.CONTACT_US_PAGE.LAST_NAME_FIELD).type(this.CONSTANTS.CONTACT_US_PAGE.LAST_NAME),
