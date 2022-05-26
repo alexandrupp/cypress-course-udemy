@@ -14,6 +14,8 @@ describe('Test Contact Us form via Automation Test Store', () => {
       .type(this.contact_us_data.first_name),
     cy.get(this.selectors.contact_us_page.email_field)
       .type(this.contact_us_data.email)
+    cy.get(this.selectors.contact_us_page.email_field)
+      .should('have.attr', 'name', 'email')
     cy.get(this.selectors.contact_us_page.enquiry_field)
       .type(this.contact_us_data.comment)
     cy.get(this.selectors.contact_us_page.submit_cta)
