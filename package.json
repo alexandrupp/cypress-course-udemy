@@ -8,6 +8,8 @@
     "test:headed": "npx cypress run --headed",
     "test:chrome": "npx cypress run --browser chrome",
     "test:headed:firefox": "npx cypress run --headed --browser firefox",
+    "test:automationteststore:contactuspage": "npx cypress run --spec cypress/integration/AutomationTestStore/ContactUsPage.js",
+    "test:webdriveruniversity": "npx cypress run --spec cypress/integration/WebdriverUniversity/*",
     "cypress:open": "npx cypress open"
   },
   "repository": {
