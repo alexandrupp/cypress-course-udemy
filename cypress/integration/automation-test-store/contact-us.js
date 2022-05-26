@@ -1,5 +1,7 @@
 /// <reference types="Cypress" />
 
+const util = require('util')
+
 describe('Test Contact Us form via Automation Test Store', () => {
   beforeEach(() => {
     cy.fixture('./automation-test-store/selectors').as('selectors')
@@ -16,5 +18,9 @@ describe('Test Contact Us form via Automation Test Store', () => {
       .type(this.contact_us_data.comment)
     cy.get(this.selectors.contact_us_page.submit_cta)
       .click()
+    cy.xpath(util.format(
+        this.selectors.contact_success_page.success_text,
+        this.contact_us_data.success_message))
+      .should('have.text', this.contact_us_data.success_message)
   })
 })

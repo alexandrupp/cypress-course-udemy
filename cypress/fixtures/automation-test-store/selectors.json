@@ -4,5 +4,8 @@
     "email_field": "#ContactUsFrm_email",
     "enquiry_field": "#ContactUsFrm_enquiry",
     "submit_cta": "button[title='Submit']"
+  },
+  "contact_success_page": {
+    "success_text": "//*[contains(text(), '%s')]"
   }
 }
